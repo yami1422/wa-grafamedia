@@ -1,0 +1,27 @@
+{
+  "name": "wa-grafamedia",
+  "version": "1.0.0",
+  "description": "whatsapp api by grafamedia",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wa-grafamedia",
+    "node.js"
+  ],
+  "author": "Muhammad Faqih Iqbal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.3.1",
+    "express-validator": "^6.14.0",
+    "http": "0.0.1-security",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.4.1",
+    "whatsapp-web.js": "^1.15.6"
+  }
+}
